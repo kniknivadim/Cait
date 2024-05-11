@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: monospace;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 0 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid lime;
+    background: black;
+    color: lime;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: none;
+    background: lime;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
