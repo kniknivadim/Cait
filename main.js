@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Добавляем обработчики событий для каждой кнопки "Скачать"
         document.getElementById('download1').addEventListener('click', function() {
-            window.location.href = 'https://drive.usercontent.google.com/u/0/uc?id=1ej-EZq22e6tUNRNKuyNL3ivlKoXu634G&export=download';
+            window.location.href = 'https://drive.google.com/file/d/1ej-EZq22e6tUNRNKuyNL3ivlKoXu634G/view?usp=sharing';
         });
 
         document.getElementById('download2').addEventListener('click', function() {
